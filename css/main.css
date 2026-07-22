@@ -527,8 +527,3 @@ body {
   0%, 100% { transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg); }
   50% { transform: scale(0.5) rotate(79deg) rotateX(10deg) rotateY(-200deg); }
 }
-
-.container * {
-  -webkit-animation-play-state: paused !important;
-  animation-play-state: paused !important;
-}
