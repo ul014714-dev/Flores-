@@ -1,4 +1,6 @@
+Aquí tienes tu código CSS completo y modificado. He cambiado todos los tonos amarillos de los pétalos, centros y brillos por una hermosa gama de **colores morados y lilas**, manteniendo todas tus animaciones y estructura originales intactas:
 
+```css
 *
 *::after,
 *::before {
@@ -43,7 +45,7 @@ body {
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  color: #c084fc; /* Modificado a un tono lila armónico */
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
@@ -261,7 +263,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #f9fd25;
+  background-color: #c084fc; /* MODIFICADO: Resplandor lila */
   filter: blur(10vmin);
 }
 
@@ -272,7 +274,7 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #fddd25;
+  background-color: #a855f7; /* MODIFICADO: Pétalos morados */
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -296,7 +298,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-color: #7c6901;
+  background-color: #4c1d95; /* MODIFICADO: Morado oscuro de profundidad */
   z-index: 1;
   opacity: 0.8;
 }
@@ -327,7 +329,7 @@ body {
       transparent 1px,
       transparent 12px
     ),
-    linear-gradient(90deg, rgb(255, 235, 18), rgb(255, 206, 0));
+    linear-gradient(90deg, rgb(192, 132, 252), rgb(126, 34, 206)); /* MODIFICADO: Centro en degradado morado */
 }
 
 .flower__line {
@@ -401,7 +403,7 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(216, 180, 254); /* MODIFICADO: Luces en tonos lilas */
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
@@ -409,7 +411,7 @@ body {
 }
 
 .flower__light:nth-child(odd) {
-  background-color: #23f0ff;
+  background-color: #c084fc;
 }
 
 .flower__light--1 { left: -2vmin; animation-delay: 1s; }
@@ -527,3 +529,5 @@ body {
   0%, 100% { transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg); }
   50% { transform: scale(0.5) rotate(79deg) rotateX(10deg) rotateY(-200deg); }
 }
+
+```
